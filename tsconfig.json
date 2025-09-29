@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "allowJs": true,             
+    "checkJs": false,            
+    "resolveJsonModule": true    
+  },
+  "extends": "@react-native/typescript-config",
+  "include": ["**/*", "declarations.d.ts"],
+  "exclude": ["node_modules", "Pods"]
+}
